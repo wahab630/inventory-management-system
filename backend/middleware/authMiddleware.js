@@ -1,7 +1,7 @@
-// custom middleware // ye guard ha card nai to yahi se wapis jao
+// custom middleware // ye guard ha card nai to yahi se wapis jao// route guard ki tarah
 import jwt from "jsonwebtoken";
 import "dotenv/config";
-//authentication pahla honi chahiya tabhi req ma user ayega or phir us se role nikalenga
+
 export const isAuthenticatedUser = (req, res, next) => {//no arguments normal objects as args
   try {
     // const { token } = req.s("token"); //hr req k obj ma cookie ka obj b aye ga many tokens destructure kr lia

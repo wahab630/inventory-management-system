@@ -1,0 +1,3 @@
+export class PUBLIC_DATA{
+    static jwt_auth = process.env.JWT_SECRET || "7HVIHts4N47pfdhSMBUrIDvDcN46LP5SArKleAZJWcktSTe3bKWu4eZbwBoQ9n-l6pduKnA7N2dDcHmDotlO0i36Jr2BonfZWmz2_VFZQoA4nVSXXTj84wqAF3ps8H3IaYJnXWOMT9UvBtfr71T_rdV2mk9trfbJyyZLrWBntnc"
+}
